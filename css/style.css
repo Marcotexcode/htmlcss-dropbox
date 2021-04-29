@@ -149,6 +149,7 @@ header {
 .sezione1 {
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 30px;
     
 }
 
@@ -186,7 +187,7 @@ header {
 
 .box1 {
     display: inline-block;
-    width: calc(70% / 3 - 6px);
+    width: calc(100% / 3 - 20px - 20px);
     height: 917px;
     border: 1px solid #c2c2c2;
 }
@@ -247,25 +248,60 @@ header {
     padding-bottom: 20px;
 }
 
+.box-central {
+    margin: 0px 55px;
+}
 
 
 
 
+/* box bottom */
 
+.box-bottom {
+    margin-top: 40px;
+    border: 1px solid #c2c2c2;
+    width: 100%;
+    height: 227px;
+}
+
+.cont-box-bottom {
+    padding: 30px;
+}
+
+.cont-box-bottom h2 {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.btn-box-bottom {
+    float: right;
+}
+
+.btn-box-bottom a {
+    font-size: 20px;
+}
+
+.cont-box-bottom span {
+    font-weight: 800;
+    padding: 20px 0px;
+    display: block;
+    font-size: 16px;
+}
+
+.cont-box-bottom p {
+    font-size: 13px;
+    display: block;
+}
 
 
 /* debug */
 
 .debug main{
-    width: 100%;
-    background-color: blue;
+    
     
 }
 
-.debug .sezione1 {
-    background-color: grey;
-   height: 80000px;
-}
+
 
 .debug .sezione2 {
     background-color: yellowgreen;
