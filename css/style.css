@@ -26,3 +26,26 @@
 
 
 /* debug */
+
+.debug header {
+    width: 100%;
+    background-color: red;
+    height: 80px;
+}
+
+.debug .jumbotron {
+    background-color: green;
+    height: 400px;
+}
+
+.debug main{
+    width: 100%;
+    background-color: blue;
+    height: 2000px;
+}
+
+.debug footer {
+    width: 100%;
+    background-color: yellow;
+    height: 300px;
+}
