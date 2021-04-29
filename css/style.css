@@ -143,23 +143,111 @@ header {
 
 
 
-/* debug */
 
-.debug header {
-    width: 100%;
+/* sezione piano */
+
+.sezione1 {
+    width: 70%;
+    margin: 0 auto;
     
-    height: 80px;
+}
+
+.sezione1  h2 {
+    padding-top: 180px;
+    font-size: 40px;
+}
+
+.sezione1 form {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.sezione1 input {
+    font-size: 30px;
+    width:20px; 
+    height:20px;  
+    vertical-align: middle;
+}
+
+.sezione1 label {
+    margin-right: 20px;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
 
 
 
+/* box */
+
+.box1 {
+    display: inline-block;
+    width: 315px;
+    height: 917px;
+    border: 1px solid #000;
+}
+
+.box1 span {
+    display: block;
+}
+
+.title-box {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
 
 .debug main{
     width: 100%;
     background-color: blue;
-    height: 2000px;
+    
 }
+
+.debug .sezione1 {
+    background-color: grey;
+   height: 80000px;
+}
+
+.debug .sezione2 {
+    background-color: yellowgreen;
+    height: 800px;
+}
+
+
+.debug .sezione3 {
+    background-color: rebeccapurple;
+    height: 800px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .debug footer {
     width: 100%;
