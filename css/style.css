@@ -6,8 +6,88 @@
 }
 
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
+/* header */
+
+header {
+    line-height: 80px;
+    padding: 0px 20px;
+    position: fixed;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+
+
+/* logo */
+
+.logo {
+    line-height: 80px;
+    display: inline-block;
+}
+
+.logo img {
+    width: 99px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+
+
+
+/* menu sinistro */
+
+.menu-sx, .menu-dx {
+    display: inline-block;
+}
+
+
+.menu-sx li, .menu-dx li{
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.menu-sx a, .menu-dx a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* menu destro */
+
+.menu-dx {
+    float: right;
+}
+
+.menu-dx ul {
+    display: inline-block;
+}
+
+
+
+/* bottone menu  */
+
+.btn {
+    display: inline-block;
+    
+    
+}
+.btn a {
+    background-color: #0061ff;;
+    font-size: 14px;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+}
 
 
 
@@ -29,7 +109,7 @@
 
 .debug header {
     width: 100%;
-    background-color: red;
+    
     height: 80px;
 }
 
