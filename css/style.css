@@ -152,7 +152,7 @@ header {
     
 }
 
-.sezione1  h2 {
+.title-section {
     padding-top: 180px;
     font-size: 40px;
 }
@@ -186,9 +186,9 @@ header {
 
 .box1 {
     display: inline-block;
-    width: 315px;
+    width: calc(70% / 3 - 6px);
     height: 917px;
-    border: 1px solid #000;
+    border: 1px solid #c2c2c2;
 }
 
 .box1 span {
@@ -198,15 +198,54 @@ header {
 .title-box {
     text-align: center;
     padding: 15px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #c2c2c2;
 }
 
+.cont-box {
+    padding: 20px;
+}
 
+.subtitle-box {
+    font-size: 25px;
+}
 
+.box-prezzo {
+    padding: 10px 0px;
+    font-weight: 800;
+}
 
+.box-mese {
+    padding: 10px 0px 60px ;
+}
 
+.n-utenti, .sp-archiviazione, .funzioni {
+    padding: 10px 0px;
+}
 
+.btn-box {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px 20px 0px;
+}
 
+.acquisto {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.cont-box hr {
+    width: 30%;
+    margin-bottom: 40px;
+    color: #c2c2c2;
+}
+
+.cont-box h3 {
+    padding-bottom: 20px;
+}
+
+.v {
+    padding-bottom: 20px;
+}
 
 
 
