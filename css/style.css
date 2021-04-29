@@ -147,7 +147,7 @@ header {
 /* sezione piano */
 
 .sezione1 {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     padding-bottom: 30px;
     
@@ -294,18 +294,66 @@ header {
 }
 
 
-/* debug */
 
-.debug main{
+
+
+/* sezione contatti  */
+
+.sezione2 {
+    width: 75%;
+    margin: 50px auto;
+    display: block;
+}
+
+.sezione2 img {
+    width: 580px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sez2-text-btn {
+    vertical-align: middle;
+    display: inline-block;
+    width: 45%;
+    padding: 0px 40px;
+}
+
+.sez2-text-btn h2 {
+    padding: 20px 0px;
     
-    
+}
+
+.sez2-text-btn p {
+    line-height: 27px;
+    padding: 10px 0px;
+}
+
+.btn-sez2 {
+    padding: 30px 0px;
+}
+
+.btn-sez2 a {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 15px;
 }
 
 
 
-.debug .sezione2 {
-    background-color: yellowgreen;
-    height: 800px;
+
+
+
+
+
+
+/* debug */
+
+.debug main{
+    width: 100%;
+    background-color: blue;
+    
 }
 
 
