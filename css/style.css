@@ -422,16 +422,18 @@ header {
 }
 
 .sez4-img  {
-    border: 1px solid #000;
     float: left;
     width: calc(100% / 2);
-    padding: 30px;
-    text-align: center;
     height: 221px;
+    position: relative;
 }
 
 .sez4-img img {
-    width: 50%;
+    width: 70%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 .sez4-img1 {
