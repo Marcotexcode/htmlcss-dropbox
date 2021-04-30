@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -27,6 +28,7 @@ header {
     height: 80px;
     background-color: #fff;
     border-bottom: 1px solid rgb(168, 168, 168);
+    z-index: 500;
 }
 
 
@@ -100,15 +102,17 @@ header {
 
 .jumbotron {
     background-color:#b4d0e7;
+    position: relative;
 }
 
 .container-jumbo {
     width: 90%;
     margin: 80px auto 0px;
-    height: 688px;
+    padding-bottom: 37px;
 }
 
 .container-jumbo h1 {
+    font-family: 'Antonio', sans-serif;
     font-size:68px;
     padding-top: 61px;
     padding-bottom: 30px;
@@ -118,8 +122,7 @@ header {
     display: inline-block;
 }
 
-.text-jumbo1 {
-    
+.text-jumbo1 {  
     margin-bottom: 30px;
     line-height: 25px;
 }
@@ -135,10 +138,11 @@ header {
 }
 
 .img-jumbo {
+    position: absolute;
     display: inline-block;
-    float: right;
-    width: 900px;
-    height: 534px;
+    margin: 0% 0%  0% 11%;
+    width: 63%;
+    
 }
 
 
@@ -160,8 +164,6 @@ header {
 
 .sezione1 form {
     width: 100%;
-    display: block;
-    float: left;
     margin-top: 100px;
     margin-bottom: 50px;
     margin-bottom: 80px;
@@ -185,16 +187,16 @@ header {
 
 /* box */
 
+.contentboxsez1 {
+    border: 1px solid #000;
+}
+
 .box1 {
     display: inline-block;
     width: calc(100% / 3 - 20px - 20px);
-    height: 917px;
     border: 1px solid #c2c2c2;
 }
 
-.box1 span {
-    display: block;
-}
 
 .title-box {
     text-align: center;
@@ -210,16 +212,19 @@ header {
     font-size: 25px;
 }
 
-.box-prezzo {
+.box-prezzo { 
+    display: block;
     padding: 10px 0px;
     font-weight: 800;
 }
 
 .box-mese {
+    display: block;
     padding: 10px 0px 60px ;
 }
 
 .n-utenti, .sp-archiviazione, .funzioni {
+    display: block;
     padding: 10px 0px;
 }
 
@@ -230,6 +235,7 @@ header {
 }
 
 .acquisto {
+    display: block;
     text-align: center;
     padding: 0px 0px 30px 0px;
 }
@@ -245,6 +251,7 @@ header {
 }
 
 .v {
+    display: block;
     padding-bottom: 20px;
 }
 
