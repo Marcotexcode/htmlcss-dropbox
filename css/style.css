@@ -102,13 +102,14 @@ header {
 
 .jumbotron {
     background-color:#b4d0e7;
-    position: relative;
 }
 
 .container-jumbo {
     width: 90%;
-    margin: 80px auto 0px;
-    padding-bottom: 37px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    bottom: -80px;
 }
 
 .container-jumbo h1 {
@@ -119,7 +120,8 @@ header {
 }
 
 .box-text-jumbo {
-    display: inline-block;
+    width: 30%;
+    float: left;
 }
 
 .text-jumbo1 {  
@@ -137,15 +139,15 @@ header {
     font-size: 45px;
 }
 
-.img-jumbo {
-    position: absolute;
-    display: inline-block;
-    margin: 0% 0%  0% 11%;
-    width: 63%;
-    
+
+.box-img {
+    width: 70%;
+    float: left;
 }
 
-
+.box-img img {
+    width: 100%;
+}
 
 
 /* sezione piano */
@@ -153,20 +155,20 @@ header {
 .sezione1 {
     width: 75%;
     margin: 0 auto;
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;   
+}
+
+.title-form {
+    padding: 70px 0px;
 }
 
 .title-section {
-    padding-top: 180px;
     font-size: 40px;
 }
 
 .sezione1 form {
     width: 100%;
     margin-top: 100px;
-    margin-bottom: 50px;
-    margin-bottom: 80px;
 }
 
 .sezione1 input {
@@ -187,16 +189,25 @@ header {
 
 /* box */
 
+
+
+
+
+
 .contentboxsez1 {
     border: 1px solid #000;
 }
 
 .box1 {
-    display: inline-block;
-    width: calc(100% / 3 - 20px - 20px);
+    float: left;
+    width: calc(100% / 3 - 40px);
     border: 1px solid #c2c2c2;
 }
 
+
+.box-central {
+    margin: 0px 60px;
+}
 
 .title-box {
     text-align: center;
@@ -208,23 +219,21 @@ header {
     padding: 20px;
 }
 
+.cont-box-title {
+    padding: 20px;
+}
+
 .subtitle-box {
     font-size: 25px;
 }
 
 .box-prezzo { 
-    display: block;
-    padding: 10px 0px;
+    margin: 10px 0px;
     font-weight: 800;
 }
 
-.box-mese {
-    display: block;
-    padding: 10px 0px 60px ;
-}
 
 .n-utenti, .sp-archiviazione, .funzioni {
-    display: block;
     padding: 10px 0px;
 }
 
@@ -235,29 +244,24 @@ header {
 }
 
 .acquisto {
-    display: block;
     text-align: center;
     padding: 0px 0px 30px 0px;
 }
 
 .cont-box hr {
     width: 30%;
-    margin-bottom: 40px;
+    margin: 20px 0px 30px 20px;
     color: #c2c2c2;
 }
 
 .cont-box h3 {
-    padding-bottom: 20px;
+    margin: 20px 0px 30px 20px;
 }
 
 .v {
-    display: block;
     padding-bottom: 20px;
 }
 
-.box-central {
-    margin: 0px 55px;
-}
 
 
 
@@ -385,6 +389,28 @@ header {
 
 
 
+/* sezione team */
+
+.title-sez4 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.title-sez4 h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.title-sez4 a {
+    color: blue;
+}
+
+.title-sez4 a:hover {
+    text-decoration: none;
+}
+
+
+
 
 /* debug */
 
@@ -394,22 +420,13 @@ header {
     
 }
 
-
-
-.debug .sezione3 {
-    background-color: rebeccapurple;
-    
-}
-
-.debug .box-sez3 {
-    
-    height: 600px;
-    background-color: red;
-}
-
 .debug .sezione4 {
     background-color: green;
     height: 600px;
+}
+
+.debug .title-sez4 {
+    background-color: grey;
 }
 
 .debug .sezione5 {
@@ -422,3 +439,14 @@ header {
     background-color: yellow;
     height: 600px;
 }
+
+/* .debug .sezione3 {
+    background-color: rebeccapurple;
+    
+}
+
+.debug .box-sez3 {
+    
+    height: 600px;
+    background-color: red;
+} */

@@ -71,8 +71,9 @@
             <p class="text-jumbo2" >Annulla in qualsiasi momento</p>
             <i class="fas fa-arrow-down"></i>   
         </div>
-    
-        <img src="img/img1.png" alt="" class="img-jumbo">
+        <div class="box-img">
+        <img src="img/img1.png" alt="">
+        </div>
     </div> 
   </div>
   <!-- fine jumbotron -->
@@ -86,18 +87,18 @@
 
     <!-- inzio sezione piano -->
     <section class="sezione1 clearfix">
+        <div class="title-form">
+            <h2 class="title-section">Trova il piano Dropbox Business che fa per te</h2>
 
-        <h2 class="title-section">Trova il piano Dropbox Business che fa per te</h2>
+            <form action=""><!-- ********** MODIFICARE non FUNZIONA BENE ***********-->
+                <input type="radio">
+                <label for="">Fatturazione mensile</label>
+                <input type="radio">
+                <label for="">Fatturazione annuale</label>
+            </form><!-- ********** MODIFICARE non FUNZIONA BENE ***********-->
+        </div>
 
-        <form action=""><!-- ********** MODIFICARE non FUNZIONA BENE ***********-->
-            <input type="radio">
-            <label for="">Fatturazione mensile</label>
-            <input type="radio">
-            <label for="">Fatturazione annuale</label>
-        </form><!-- ********** MODIFICARE non FUNZIONA BENE ***********-->
-
-
-        <div class="contentboxsez1"> <!-- ********** MODIFICARE non FUNZIONA BENE ***********-->
+        <div class="contentboxsez1 clearfix"> <!-- ********** MODIFICARE non FUNZIONA BENE ***********-->
             <!-- inizio box 1  -->
             <div class="box1">
                 <div class="title-box">
@@ -106,29 +107,35 @@
                 </div>
 
                 <div class="cont-box">
-                    <h2 class="subtitle-box">Professional</h2>
-                    <span class="box-prezzo">19,99 €</span>
-                    <span class="box-mese">/mese</span>
-                    <span class="n-utenti"><i class="fas fa-user-alt"></i> 1 utente</span>
-                    <span class="sp-archiviazione"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</span>
-                    <span class="funzioni"><i class="fas fa-highlighter"></i> Funzioni di produttività premium e condivisione file semplice e sicura</span>
 
-                    <div class="btn btn-box">
-                    <a href="">Prova gratis per 30 giorni</a>
+                    <div class="cont-box-title">
+                       <h2 class="subtitle-box">Professional</h2>
+                       <h2 class="box-prezzo">19,99 €</h2>
+                       <p class="box-mese">/mese</p>
                     </div>
 
-                    <span class="acquisto">oppure <a href="">acquista ora</a></span>
-                    
-                    <hr>
+                    <ul>
+                       <li class="n-utenti">1 utente</li>
+                       <li class="sp-archiviazione">3 TB di spazio di archiviazione sicuro</li>
+                       <li class="funzioni"> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                    </ul>
 
+                    <div class="cont-box-button">
+                        <div class="btn btn-box">
+                            <a href="">Prova gratis per 30 giorni</a>
+                        </div>
+                        <h5 class="acquisto">oppure <a href="#">acquista ora</a></h5>
+                        <hr>
+                    </div>        
+                       
                     <h3>Punti salienti del piano</h3>
-
-                    <span class="v">&check; Invia file fino a 100 GB con Dropbox Transfer</span>
-                    <span class="v">&check; Invia file fino a 100 GB con Dropbox Transfer</span>
-                    <span class="v">&check; Invia file fino a 100 GB con Dropbox Transfer</span>
-                    <span class="v">&check; Invia file fino a 100 GB con Dropbox Transfer</span>
-                    <span class="v">&check; Invia file fino a 100 GB con Dropbox Transfer</span>
-                    
+                    <ul>
+                       <li class="v">Invia file fino a 100 GB con Dropbox Transfer</li>
+                       <li class="v">Cartelle offline su dispositivi mobili</li>
+                       <li class="v">Pulizia remota dell'account</li>
+                       <li class="v">Filigrana documento</li>
+                       <li class="v">Assistenza prioritaria via email e chat</li>
+                   </ul>
                 </div>
             </div>
             <!-- fine box 1   -->
@@ -310,7 +317,10 @@
 
     <!-- inizio sezione team -->
     <section class="sezione4">
-
+            <div class="title-sez4">
+                <h2>Più di 500.000 team <br> utilizzano Dropbox Business</h2>
+                <a href="#">Scopri di più sui nostri clienti</a>
+            </div>
     </section>
     <!-- fine sezione team -->
 
