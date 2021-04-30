@@ -195,7 +195,9 @@ header {
 
 
 .contentboxsez1 {
+    display: block;
     border: 1px solid #000;
+    margin-bottom: 30px;
 }
 
 .box1 {
@@ -258,9 +260,16 @@ header {
     margin: 20px 0px 30px 20px;
 }
 
+.cont-box ul {
+    list-style-type: none;
+}
+
 .v {
     padding-bottom: 20px;
 }
+
+
+
 
 
 
