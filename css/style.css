@@ -83,16 +83,19 @@ header {
 /* bottone menu  */
 
 .btn {
-    display: inline-block;
-    
-    
+    display: inline-block;  
 }
+
 .btn a {
-    background-color: #0061ff;;
+    background-color: #0061ff;
     font-size: 14px;
     color: white;
     padding: 7px 20px;
     text-decoration: none;
+}
+
+.btn a:hover {
+    background-color: #3b85ff;
 }
 
 
@@ -191,7 +194,6 @@ header {
 
 .contentboxsez1 {
     display: block;
-    border: 1px solid #000;
     margin-bottom: 30px;
 }
 
@@ -232,6 +234,17 @@ header {
     padding: 10px 0px;
 }
 
+.n-utenti {
+    list-style-image: url(https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/person-vflwJfwxi.svg);
+}
+
+.sp-archiviazione {
+    list-style-image: url(https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/white-folder-vflTSRtFt.svg);
+}
+.funzioni {
+ list-style-image: url(https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/pencil-vfl0feoul.svg);
+}
+
 .btn-box {
     text-align: center;
     width: 100%;
@@ -254,11 +267,25 @@ header {
 }
 
 .cont-box ul {
-    list-style-type: none;
+    
 }
 
 .v {
+    list-style-image: url(/Users/marco/Desktop/Boolean/esercizi/htmlcss-dropbox/img/v2.png);
     padding-bottom: 20px;
+}
+
+.text-box {
+    width: 250px;
+    vertical-align: middle;
+}
+
+.acquisto a {
+    color: blue;
+}
+
+.acquisto a:hover {
+    text-decoration: none;
 }
 
 
@@ -348,6 +375,10 @@ header {
     font-size: 15px;
 }
 
+.btn-sez2 a:hover {
+    background-color: #f5f5f5;
+}
+
 
 
 
@@ -408,7 +439,8 @@ header {
 
 .row-sez4 {
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
+    background-color: #f5f5f5;
 }
 
 
@@ -417,7 +449,7 @@ header {
     width: calc(100% / 3);
 }
 
-.sez4-colsx {
+.sez4-col-sx {
     
 }
 
@@ -452,13 +484,44 @@ header {
     background-color: #ff1c1c;
 }
 
-.sez4-colcx {
-
+.sez4-img5 {
+    background-color: #d5001f;
 }
 
-.sez4-coldx {
-
+.sez4-img6 {
+    background-color: #b4d0e7;
 }
+
+.sez4-img7 {
+    background-color: #0d2481;
+}
+
+.sez4-img8 {
+    background-color: #ffd830;
+}
+
+.sez4-col-cx {
+    padding: 30px;
+}
+
+.sez4-col-cx-img {
+    width: 50%;
+}
+
+.sez4-col-cx-img img {
+    width: 100%;
+}
+
+.sez4-col-cx hr {
+    width: 20%;
+    margin: 20px 0px;
+}
+
+.sez4-col-cx p {
+    line-height: 22px;
+    margin: 40px 0px; 
+}
+
 
 
 
@@ -484,24 +547,19 @@ header {
     background-color: grey;
 }
 
-.debug .row-sez4 {
-    background-color: pink;
-    height: 300px;
-}
-
 .debug .sez4-colsx {
     background-color: yellowgreen;
-    height: 300px;
+    
 }
 
 .debug .sez4-colcx {
     background-color: rebeccapurple;
-    height: 300px;
+    
 }
 
 .debug .sez4-coldx {
     background-color: wheat;
-    height: 300px;
+    
 }
 
 .debug .sezione5 {
