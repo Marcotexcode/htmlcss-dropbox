@@ -189,11 +189,6 @@ header {
 
 /* box */
 
-
-
-
-
-
 .contentboxsez1 {
     display: block;
     border: 1px solid #000;
@@ -205,7 +200,6 @@ header {
     width: calc(100% / 3 - 40px);
     border: 1px solid #c2c2c2;
 }
-
 
 .box-central {
     margin: 0px 60px;
@@ -233,7 +227,6 @@ header {
     margin: 10px 0px;
     font-weight: 800;
 }
-
 
 .n-utenti, .sp-archiviazione, .funzioni {
     padding: 10px 0px;
@@ -267,10 +260,6 @@ header {
 .v {
     padding-bottom: 20px;
 }
-
-
-
-
 
 
 
@@ -312,7 +301,6 @@ header {
     font-size: 13px;
     display: block;
 }
-
 
 
 
@@ -418,6 +406,62 @@ header {
     text-decoration: none;
 }
 
+.row-sez4 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.sez4-col {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.sez4-colsx {
+    
+}
+
+.sez4-img  {
+    border: 1px solid #000;
+    float: left;
+    width: calc(100% / 2);
+    padding: 30px;
+    text-align: center;
+    height: 221px;
+}
+
+.sez4-img img {
+    width: 50%;
+}
+
+.sez4-img1 {
+    background-color: #a2d39b;
+}
+
+.sez4-img2 {
+    background-color: #61082b;
+}
+
+.sez4-img3 {
+    background-color: #0093ce;
+}
+
+.sez4-img4 {
+    background-color: #ff1c1c;
+}
+
+.sez4-colcx {
+
+}
+
+.sez4-coldx {
+
+}
+
+
+
+
+
 
 
 
@@ -436,6 +480,26 @@ header {
 
 .debug .title-sez4 {
     background-color: grey;
+}
+
+.debug .row-sez4 {
+    background-color: pink;
+    height: 300px;
+}
+
+.debug .sez4-colsx {
+    background-color: yellowgreen;
+    height: 300px;
+}
+
+.debug .sez4-colcx {
+    background-color: rebeccapurple;
+    height: 300px;
+}
+
+.debug .sez4-coldx {
+    background-color: wheat;
+    height: 300px;
 }
 
 .debug .sezione5 {
