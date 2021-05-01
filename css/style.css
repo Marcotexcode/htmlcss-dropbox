@@ -217,8 +217,9 @@ header {
     padding: 20px;
 }
 
+
 .cont-box-title {
-    padding: 20px;
+    margin: 20px;
 }
 
 .subtitle-box {
@@ -266,13 +267,13 @@ header {
     margin: 20px 0px 30px 20px;
 }
 
-.cont-box ul {
-    
-}
-
 .v {
     list-style-image: url(/Users/marco/Desktop/Boolean/esercizi/htmlcss-dropbox/img/v2.png);
     padding-bottom: 20px;
+}
+
+.padding {
+    padding-bottom: 78px;
 }
 
 .text-box {
@@ -364,9 +365,9 @@ header {
     padding: 10px 0px;
 }
 
-.btn-sez2 {
-    padding: 30px 0px;
-}
+    .btn-sez2 {
+        padding: 30px 0px;
+    }
 
 .btn-sez2 a {
     background-color: #fff;
@@ -397,7 +398,7 @@ header {
 
 .box-sez3 {
     width: calc(100% / 3 - 10px);
-    display: inline-block;
+    float: left;
     text-align: left;
 }
 
@@ -439,7 +440,7 @@ header {
 
 .row-sez4 {
     width: 100%;
-    margin: 50px auto;
+    margin: 50px auto 0px;
     background-color: #f5f5f5;
 }
 
@@ -447,10 +448,6 @@ header {
 .sez4-col {
     float: left;
     width: calc(100% / 3);
-}
-
-.sez4-col-sx {
-    
 }
 
 .sez4-img  {
@@ -522,13 +519,68 @@ header {
     margin: 40px 0px; 
 }
 
+/* foter sezione 4 */
+
+.sez4-row-bottom {
+    
+    padding: 120px 0px;
+    background-color: #b4d0e7;
+}
+
+.sez4-row-bottom-text {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.sez4-row-bottom-text h2 {
+    display: inline-block;
+    font-size: 50px;
+    color: #61082b;
+}
+
+.btn-sez4 {
+    float: right;
+}
+
+.btn-sez4 a {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.btn-sez4  a:hover {
+    background-color: #f5f5f5;
+}
 
 
+/* sezione domande */
 
+.cont-sez5 {
+    padding: 100px 0px;
+    width: 75%;
+    margin: 0 auto;
+}
 
+.row-tex-sez5 ul {
+    list-style-type: none;
+    line-height: 90px; 
+}
 
+.row-tex-sez5 ul h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 
+.row-tex-sez5 ul li {
+    font-size: 20px;
+    border-bottom: 1px solid #c2c2c2;
+}
 
+.row-tex-sez5 ul li span {
+    float: right;
+    font-size: 30px;
+}
 
 /* debug */
 
