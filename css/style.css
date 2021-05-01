@@ -85,34 +85,43 @@ header {
 
 /* ****************** MENU A TENDINA ****************** */
 .m1 {
+    padding-left: 20px;
     float: left;
+    width: calc(100% / 3);
 }
 .m1 ul li {
+    padding-left: 0;       /* padding nullo */
+    margin-left: 0;
     line-height: 40px;
     display: block;
 }
 .m1 ul li:hover {
     border-bottom: none;
+    background-color: #f0f0f0c4;
 }
 
+
 .m1 ul li a:hover {
-    background-color: grey;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .m1 h3 {
+    width: 80%;
+    line-height: 40px;
     display: block;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #c2c2c2;
 }
 
 .menu-sx ul li:hover .menu-tendina1  {
     display: block;
     position: absolute;
-    border: 1px solid #000;
+    border: 1px solid #c2c2c2;
     background-color: #fff;
+    
 }
 
 .menu-tendina1 {
+    width: 800px;
     display: none;
 }
 
