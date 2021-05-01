@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    paddin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -213,10 +213,13 @@ header {
     border-bottom: 1px solid #c2c2c2;
 }
 
+.cont-box ul li {
+    margin-left: 35px;
+}
+
 .cont-box {
     padding: 20px;
 }
-
 
 .cont-box-title {
     margin: 20px;
@@ -365,9 +368,9 @@ header {
     padding: 10px 0px;
 }
 
-    .btn-sez2 {
-        padding: 30px 0px;
-    }
+.btn-sez2 {
+    padding: 30px 0px;
+}
 
 .btn-sez2 a {
     background-color: #fff;
@@ -581,6 +584,87 @@ header {
     float: right;
     font-size: 30px;
 }
+
+
+
+
+
+
+/* footer  */
+
+
+.cont-footer {
+    background-color: black;
+}
+.foot-row {
+    width: 75%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.foot-col {
+    float: left;
+    width: calc(100% / 5 );
+}
+
+.foot-col ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.foot-col h3 {
+    color: white;
+}
+
+.foot-col ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.foot-col ul li a:hover {
+    text-decoration: underline; ;
+}
+
+
+.lingua {
+    border-top: 1px solid white;
+    margin-top: 40px;
+    padding: 45px 0px;
+    display: inline-block;
+    
+}
+
+.lingua h3 {
+    color: #666666;
+
+    font-size: 16px;
+}
+
+.lingua  h3 i {
+    color: #666666;
+}
+
+
+.lingua  h3 i:last-child {
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* debug */
 
