@@ -33,7 +33,6 @@ header {
     line-height: 77px;
     padding: 0px 20px;
     position: fixed;
-    height: 80px;
     background-color: #fff;
     border-bottom: 1px solid rgb(168, 168, 168);
     z-index: 500;
@@ -50,7 +49,7 @@ header {
 }
 
 .logo img {
-    width: 99px;
+
     height: 25px;
     vertical-align: middle;
 }
@@ -61,8 +60,7 @@ header {
 /* menu sinistro */
 
 .menu-sx, .menu-dx {
-    display: inline-block;
-    
+    display: inline-block; 
     position: relative;
 }
 
@@ -77,9 +75,7 @@ header {
 
 .menu-sx a, .menu-dx a {
     text-decoration: none;
-    font-size: 16px;
     color: #000;
-    
 }
 
 
@@ -113,12 +109,11 @@ header {
     border-bottom: 1px solid #c2c2c2;
 }
 
-.menu-sx ul li:hover .menu-tendina1  {
+.menu-sx ul li:hover .menu-tendina1, .menu-sx ul li:hover .menu-tendina2  {
     margin-top: 2px;
     display: block;
     position: absolute;
-    background-color: #f5f5f5;
-    
+    background-color: #f5f5f5; 
 }
 
 .menu-tendina1 {
@@ -141,38 +136,21 @@ header {
     width: calc(100% / 2);
 }
 
-.menu-tendina2 .m1 ul li {    
-    margin-left: 0;  
-    display: block;
-}
-
-.menu-sx ul li:hover .menu-tendina2  {
-    margin-top: 2px;
-    display: block;
-    position: absolute;
-    background-color: #f5f5f5;
-    
-}
-
 /* ****************** MENU A TENDINA2 ****************** */
 
 /* ****************** MENU A TENDINA3 ****************** */
 
 .menu-tendina3 {
     display: none;
-    
 }
 
-.menu-dx ul li:hover .menu-tendina3  {
+.menu-dx ul li:hover .menu-tendina3, .menu-dx ul li:hover .menu-tendina4 {
     margin-top: 3px;
     display: block;
     position: absolute;
     background-color: #f5f5f5;
     
 }
-
-
-
 
 /* ****************** MENU A TENDINA3 ****************** */
 
@@ -181,13 +159,6 @@ header {
 .menu-tendina4 {
     display: none;
     width: 200px; 
-}
-
-.menu-dx ul li:hover .menu-tendina4  {
-    margin-top: 3px;
-    display: block;
-    position: absolute;
-    background-color: #f5f5f5;
 }
 
 /* ****************** MENU A TENDINA4 ****************** */
@@ -254,12 +225,14 @@ header {
 }
 
 .text-jumbo1 {  
-    margin-bottom: 30px;
     line-height: 25px;
 }
 
+.btn-jumbotron {
+    margin: 30px 0px;
+}
+
 .text-jumbo2 {
-    margin: 15px 0px;
     font-size: 14px;
 }
 
@@ -632,7 +605,9 @@ header {
 }
 
 .sez4-col-cx {
+    overflow-y: auto;
     padding: 30px;
+    height: 442px;
 }
 
 .sez4-col-cx-img {
