@@ -83,14 +83,13 @@ header {
 }
 
 
-/* ****************** MENU A TENDINA ****************** */
+/* ****************** MENU A TENDINA1 ****************** */
 .m1 {
     padding-left: 20px;
     float: left;
     width: calc(100% / 3);
 }
 .m1 ul li {
-    padding-left: 0;       /* padding nullo */
     margin-left: 0;
     line-height: 40px;
     display: block;
@@ -124,8 +123,36 @@ header {
     width: 800px;
     display: none;
 }
+/* ****************** MENU A TENDINA1 ****************** */
 
-/* ****************** MENU A TENDINA ****************** */
+
+/* ****************** MENU A TENDINA2 ****************** */
+.menu-tendina2 {
+    width: 500px;
+    display: none;
+    
+}
+
+.menu-tendina2 .m1 {
+    padding-left: 20px;
+    float: left;
+    width: calc(100% / 2);
+}
+
+.menu-tendina2 .m1 ul li {    
+    margin-left: 0;  
+    display: block;
+}
+
+.menu-sx ul li:hover .menu-tendina2  {
+    display: block;
+    position: absolute;
+    border: 1px solid #c2c2c2;
+    background-color: #fff;
+    
+}
+
+/* ****************** MENU A TENDINA2 ****************** */
 
 
 
@@ -532,6 +559,7 @@ header {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);;
 }
 
 .sez4-img1 {
@@ -588,7 +616,9 @@ header {
     margin: 40px 0px; 
 }
 
-
+.selezione {
+    border: 16px solid #d0e9cd;
+}
 
 
 /* foter sezione 4 */
@@ -655,6 +685,35 @@ header {
     font-size: 30px;
 }
 
+
+/* ******************************** HOVER ******************** */
+
+.font2 {
+    display: none;
+}
+
+.row-tex-sez5 ul li:hover .font2 {
+    display: block;
+}
+
+.row-tex-sez5 ul li:hover .font1 {
+    display: none;
+}
+.text-hover {
+    color: #637381;
+    width: 70%;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.text-hover {
+    display: none;
+}
+
+.row-tex-sez5 ul li:hover .text-hover {
+    display: block;
+}
+/* ******************************** HOVER ******************** */
 
 
 
