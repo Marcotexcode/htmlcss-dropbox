@@ -501,10 +501,21 @@ header {
     font-size: 40px;
 }
 
-.box-sez3 {
-    width: calc(100% / 3 - 10px);
+.box1-sez3 {
+    display: inline-block;
     float: left;
-    text-align: left;
+  
+}
+
+.box2-sez3 {
+    margin: 0px  58px;
+    display: inline-block;
+}
+
+.box3-sez3 {
+    float: right;
+    display: inline-block;
+    
 }
 
 .box-sez3 img {
